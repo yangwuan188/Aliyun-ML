@@ -9,10 +9,12 @@
 
 借助sklearn机器学习库可轻松实现逻辑回归函数的构建：
 
-from sklearn.linear_model import LogisticRegression （导入逻辑回归模型函数）
-lr_clf = LogisticRegression()                                         （调用逻辑回归函数）
-lr_clf = lr_clf.fit(x_fearures, y_label)                              （用逻辑回归模型拟合构造的数据集）
+***from sklearn.linear_model import LogisticRegression*** （导入逻辑回归模型函数）
+
+***lr_clf = LogisticRegression()***                                           （调用逻辑回归函数）
+
+***lr_clf = lr_clf.fit(x_fearures, y_label)***                              （用逻辑回归模型拟合构造的数据集）
 
 以上可直接用已有数据训练出一个逻辑回归模型。接着用 predict( ) 方法可对新数据进行预测：
 
-lr_clf.predict(x_fearures_new)
+***lr_clf.predict(x_fearures_new)***
